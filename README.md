@@ -30,6 +30,7 @@ USAGE
 <!-- commands -->
 * [`series hello [FILE]`](#series-hello-file)
 * [`series help [COMMAND]`](#series-help-command)
+* [`series scan [FILE]`](#series-scan-file)
 
 ## `series hello [FILE]`
 
@@ -67,4 +68,20 @@ OPTIONS
 ```
 
 _See code: [@oclif/plugin-help](https://github.com/oclif/plugin-help/blob/v3.2.2/src/commands/help.ts)_
+
+## `series scan [FILE]`
+
+describe the command here
+
+```
+USAGE
+  $ series scan [FILE]
+
+OPTIONS
+  -f, --force
+  -h, --help       show CLI help
+  -n, --name=name  name to print
+```
+
+_See code: [src/commands/scan.ts](https://github.com/iskounen/series-cli/blob/v0.0.0/src/commands/scan.ts)_
 <!-- commandsstop -->
