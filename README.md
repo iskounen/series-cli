@@ -28,30 +28,9 @@ USAGE
 <!-- usagestop -->
 # Commands
 <!-- commands -->
-* [`series hello [FILE]`](#series-hello-file)
 * [`series help [COMMAND]`](#series-help-command)
 * [`series scan`](#series-scan)
-* [`series seq`](#series-seq-file)
-
-## `series hello [FILE]`
-
-describe the command here
-
-```
-USAGE
-  $ series hello [FILE]
-
-OPTIONS
-  -f, --force
-  -h, --help       show CLI help
-  -n, --name=name  name to print
-
-EXAMPLE
-  $ series hello
-  hello world from ./src/hello.ts!
-```
-
-_See code: [src/commands/hello.ts](https://github.com/iskounen/series-cli/blob/v0.0.0/src/commands/hello.ts)_
+* [`series seq`](#series-seq)
 
 ## `series help [COMMAND]`
 
@@ -81,7 +60,7 @@ _See code: [src/commands/scan.ts](https://github.com/iskounen/series-cli/blob/v0
 
 ## `series seq`
 
-describe the command here
+renames jpg files to be sequential
 
 ```
 USAGE

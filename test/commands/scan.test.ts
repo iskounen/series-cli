@@ -6,8 +6,11 @@ describe('scan', () => {
   beforeEach(() => {
     mock({
       'package.json': mock.load(path.resolve(__dirname, '../../package.json')),
+      'tsconfig.json': mock.load(path.resolve(__dirname, '../../tsconfig.json')),
       // eslint-disable-next-line quote-props
       'src': mock.load(path.resolve(__dirname, '../../src')),
+      // eslint-disable-next-line quote-props
+      'node_modules': mock.load(path.resolve(__dirname, '../../node_modules')),
       'foo.txt': 'foo',
       'bar.txt': 'bar',
       'baz.txt': 'baz',

@@ -7,8 +7,11 @@ describe('seq', () => {
   beforeEach(() => {
     mock({
       'package.json': mock.load(path.resolve(__dirname, '../../package.json')),
+      'tsconfig.json': mock.load(path.resolve(__dirname, '../../tsconfig.json')),
       // eslint-disable-next-line quote-props
       'src': mock.load(path.resolve(__dirname, '../../src')),
+      // eslint-disable-next-line quote-props
+      'node_modules': mock.load(path.resolve(__dirname, '../../node_modules')),
       '001.jpg': Buffer.from('FFDBFF01FFD9', 'hex'),
       '002.jpg': Buffer.from('FFDBFF02FFD9', 'hex'),
       '003.jpg': Buffer.from('FFDBFF03FFD9', 'hex'),
